@@ -175,34 +175,129 @@
     <script src="js/materialize.min.js"></script>
     <script>
         var t1_text = '{' +
-            '"1": {"name": "数据结构","type": "学科"},\n' +
-            '"2": { "name": "二叉树", "type": "知识点"},\n' +
-            '"3": {"name": "链表","type": "知识点"},\n' +
-            '"4": {"name": "平衡二叉树","type": "知识点"},\n' +
-            '"5": {"name": "二叉树的结构讲解","url": "www.mooc.com/15.html",\n' +
-            '"type": "视频资源"},\n' +
-            '"6": {"name": "链表的反转",\n' +
-            '"url": "www.mooc.com/1.ppt",\n' +
-            '"type": "ppt资源"\n' +
-            '},\n' +
-            '"7": {"name": "闲节点","type": "闲"},\n' +
-            '"8": {"name": "闲节点2","type": "闲"},\n' +
-            '"9": {"name": "闲节点3","type": "闲"},\n' +
-            '"10": {"name": "芳芳老师","type": "老师"},\n' +
-            '"11": {"name": "月老师","type": "老师"}\n' +
+'"1": {"name": "虚拟电厂(VPP)","type": "学科"},\n' +
+'"2": { "name": "配电网", "type": "知识点"},\n' +
+'"3": {"name": "运行优化","type": "知识点"},\n' +
+'"4": {"name": "优化调度","type": "知识点"},\n' +
+'"5": {"name": "碳交易","url": "www.mooc.com/15.html",\n' +
+'"type": "视频资源"},\n' +
+'"6": {"name": "达到共享储能",\n' +
+'"url": "www.mooc.com/1.ppt","type": "ppt资源"},\n' +
+'"7": {"name": "提高清洁能源利用率","type": "闲"},\n' +
+'"8": {"name": "电动汽车","type": "学科2"},\n' +
+'"9": {"name": "分时电价","type": "专业术语"},\n' +
+'"10": {"name": "联合调峰","type": "专业术语"},\n' +
+'"11": {"name": "电力市场","type": "专业术语"},\n' +
+'"12": {"name": "优化调度","type": "专业术语"},\n' +
+'"13": {"name": "商业模式","type": "专业术语"},\n' +
+'"14": {"name": "精准削峰填谷，且调峰成本低","type": "专业术语"},\n' +
+'"15": {"name": "虚拟电厂的体现","type": "专业术语"},\n' +
+'"16": {"name": "低谷低价充电","type": "专业术语"},\n' +
+'"17": {"name": "高峰高价放电","type": "专业术语"},\n' +
+'"18": {"name": "夏季用电高峰5G基站削峰让电","type": "专业术语"},\n' +
+'"19": {"name": "国网湖北综合能源服务有限公司","type": "机构"},\n' +
+'"20": {"name": "以武汉市区电压等级不足1kV电动汽车为例","type": "专业术语"},\n' +
+'"21": {"name": "平段电价：0.58元/千瓦时","type": "专业术语"},\n' +
+'"22": {"name": "低谷段电价：0.43元/千瓦时","type": "专业术语"},\n' +
+'"23": {"name": "高峰段电价：0.68元/千瓦时","type": "专业术语"},\n' +
+'"24": {"name": "尖峰段电价：0.78元/千瓦时","type": "专业术语"},\n' +
+'"25": {"name": "利用信息技术和通信技术，将分散的、不同类型和规模的分布式能源资源和灵活负荷整合起来，形成一个统一的、灵活可控的虚拟发电厂","type": "专业术语"},\n' +
+'"26": {"name": "需求响应","type": "功能"},\n' +
+'"27": {"name": "多能优化","type": "功能"},\n' +
+'"28": {"name": "电转气","type": "功能"},\n' +
+'"29": {"name": "计及电转气协同的虚拟电厂调度法","type": "功能"},\n' +
+'"30": {"name": "孙慧娟","type": "作者"},\n' +
+'"31": {"name": "彭春华","type": "作者"},\n' +
+'"32": {"name": "刘昀","type": "作者"},\n' +
+'"33": {"name": "将电能转化为气体能源，如氢气等","type": "科研"},\n' +
+'"34": {"name": "解决可再生能源的不稳定性问题","type": "科研"},\n' +
+'"35": {"name": "提升系能源消纳能力，降低碳排放","type": "科研"},\n' +
+'"36": {"name": "碳捕集技术","type": "科研"},\n' +
+'"37": {"name": "烟气预处理系统","type": "科研"},\n' +
+'"38": {"name": "除尘、脱硝、脱硫","type": "科研"},\n' +
+'"39": {"name": "提高发电设备利用率","type": "科研"},\n' +
+'"40": {"name": "促进多维度协同","type": "科研"},\n' +
+'"41": {"name": "1997年由德国公司RheinEnergie提出","type": "科研"},\n' +
+'"42": {"name": "鲁棒优化","type": "科研"},\n' +
+'"43": {"name": "针对不确定系统的自适应控制法","type": "科研"},\n' +
+'"44": {"name": "构建以虚拟电厂运行成本最低为目标函数的模型","type": "科研"},\n' +
+'"45": {"name": "抑制风电出力的波动具有可靠性","type": "科研"},\n' +
+'"46": {"name": "考虑电动汽车出行的虚拟电厂鲁棒优化调度","type": "文献"},\n' +
+'"47": {"name": "李 轶 朱亚萍 王 昕 ","type": "作者"},\n' +
+'"48": {"name": "电动汽车充放电功率模型 ","type": "作者"},\n' +
+'"49": {"name": "设置电动车数量和循环次数 ","type": "作者"},\n' +
+'"50": {"name": "随机抽样每辆电车初始负荷 ","type": "作者"},\n' +
+'"51": {"name": "随机抽样每辆电车行驶里程 ","type": "作者"},\n' +
+'"52": {"name": "计算每辆电车剩余电荷状态 ","type": "作者"},\n' +
+'"53": {"name": "VPP鲁棒优化模型 ","type": "概念"},\n' +
+'"54": {"name": "接入EVs进行有序充放电 ","type": "概念"},\n' +
+'"55": {"name": "电动汽车用动力电池 ","type": "概念"},\n' +
+'"56": {"name": "不考虑风电波动( Γ =0 )时 ","type": "概念"},\n' +
+'"57": {"name": "VPP日运行成本为0.99万元和1.195万元","type": "概念"},\n' +
+'"58": {"name": "随着鲁棒系数 Γ 增加，提高的运行成本 更多","type": "概念"},\n' +
+'"59": {"name": "Γ =0.8 的情况下分析 VPP 的运行状况 ","type": "概念"},\n' +
+'"60": {"name": "EVs 进行充放电，减小系统的负荷峰谷差","type": "概念"}\n' +
             "}"
         document.getElementById("t1").value = t1_text;
         var t2_text = "[\n" +
-            '{ "source": 1, "target": 2, "rela": "包含", "type": "包含关系" },\n' +
-            '{ "source": 1, "target": 3, "rela": "包含", "type": "包含关系" },\n' +
-            '{ "source": 1, "target": 4, "rela": "包含", "type": "包含关系" },\n' +
-            '{ "source": 2, "target": 5, "rela": "视频课程", "type": "资源" },\n' +
-            '{ "source": 3, "target": 6, "rela": "ppt教程", "type": "资源" },\n' +
-            '{ "source": 3, "target": 7, "rela": "没关系" },\n' +
-            '{ "source": 8, "target": 9, "rela": "没关系" },\n' +
-            '{ "source": 10, "target": 5, "rela": "授课", "type": "行为" },\n' +
-            '{ "source": 11, "target": 6, "rela": "授课", "type": "行为" }\n' +
-            "]"
+        '{ "source": 1, "target": 2, "rela": "包含", "type": "包含关系" },\n' +
+        '{ "source": 1, "target": 3, "rela": "包含", "type": "包含关系" },\n' +
+        '{ "source": 1, "target": 4, "rela": "包含", "type": "包含关系" },\n' +
+        '{ "source": 2, "target": 5, "rela": "作用", "type": "资源" },\n' +
+        '{ "source": 3, "target": 6, "rela": "目的", "type": "资源" },\n' +
+        '{ "source": 3, "target": 7, "rela": "目的" },\n' +
+        '{ "source": 8, "target": 9, "rela": "经虚拟电厂达到" },\n' +
+        '{ "source": 10, "target": 5, "rela": "从属", "type": "行为" },\n' +
+        '{ "source": 11, "target": 6, "rela": "达到", "type": "行为" },\n' +
+        '{ "source": 8, "target": 13, "rela": "是", "type": "行为" },\n' +
+        '{ "source": 1, "target": 14, "rela": "作用", "type": "行为" },\n' +
+        '{ "source": 8, "target": 15, "rela": "是", "type": "行为" },\n' +
+        '{ "source": 8, "target": 16, "rela": "盈利模式", "type": "行为" },\n' +
+        '{ "source": 8, "target": 17, "rela": "盈利模式", "type": "行为" },\n' +
+        '{ "source": 2, "target": 18, "rela": "应用在", "type": "行为" },\n' +
+        '{ "source": 19, "target": 18, "rela": "虚拟电厂运营商", "type": "行为" },\n' +
+        '{ "source": 9, "target": 20, "rela": "实例", "type": "行为" },\n' +
+        '{ "source": 20, "target": 21, "rela": "电价", "type": "行为" },\n' +
+        '{ "source": 20, "target": 22, "rela": "电价", "type": "行为" },\n' +
+        '{ "source": 20, "target": 23, "rela": "电价", "type": "行为" },\n' +
+        '{ "source": 20, "target": 24, "rela": "电价", "type": "行为" },\n' +
+        '{ "source": 1, "target": 25, "rela": "概念", "type": "行为" },\n' +
+        '{ "source": 1, "target": 26, "rela": "参与", "type": "行为" },\n' +
+        '{ "source": 26, "target": 27, "rela": "包含", "type": "行为" },\n' +
+        '{ "source": 1, "target": 28, "rela": "优化调度的方法", "type": "行为" },\n' +
+        '{ "source": 28, "target": 29, "rela": "专利", "type": "行为" },\n' +
+        '{ "source": 29, "target":30, "rela": "作者", "type": "行为" },\n' +
+        '{ "source": 29, "target": 31, "rela": "作者", "type": "行为" },\n' +
+        '{ "source": 29, "target": 32, "rela": "作者", "type": "行为" },\n' +
+        '{ "source": 28, "target": 33, "rela": "概念", "type": "行为" },\n' +
+        '{ "source": 33, "target": 34, "rela": "作用", "type": "行为" },\n' +
+        '{ "source": 27, "target": 35, "rela": "作用", "type": "行为" },\n' +
+        '{ "source": 35, "target": 36, "rela": "关键技术", "type": "行为" },\n' +
+        '{ "source": 36, "target": 37, "rela": "组成系统", "type": "行为" },\n' +
+        '{ "source": 37, "target": 38, "rela": "通过虚拟电厂作用", "type": "行为" },\n' +
+        '{ "source": 14, "target": 39, "rela": "作用", "type": "行为" },\n' +
+        '{ "source": 11, "target": 40, "rela": "作用", "type": "行为" },\n' +
+        '{ "source": 1, "target": 41, "rela": "起源", "type": "行为" },\n' +
+        '{ "source": 1, "target": 8, "rela": "应用于", "type": "行为" },\n' +
+        '{ "source": 8, "target": 42, "rela": "应用于", "type": "行为"},\n' +
+        '{ "source": 42, "target": 43, "rela": "概念", "type": "行为" },\n' +
+        '{ "source": 43, "target": 44, "rela": "作用", "type": "行为" },\n' +
+        '{ "source": 44, "target": 45, "rela": "目的", "type": "行为" },\n' +
+        '{ "source": 42, "target": 46, "rela": "文献", "type": "行为" },\n' +
+        '{ "source": 46, "target": 47, "rela": "作者", "type": "行为" },\n' +
+        '{ "source": 42, "target": 48, "rela": "", "type": "行为" },\n' +
+        '{ "source": 48, "target": 49, "rela": "", "type": "行为" },\n' +
+        '{ "source": 49, "target": 50, "rela": "", "type": "行为" },\n' +
+        '{ "source": 50, "target": 51, "rela": "", "type": "行为" },\n' +
+        '{ "source": 51, "target": 52, "rela": "", "type": "行为" },\n' +
+        '{ "source": 42, "target": 53, "rela": "", "type": "行为" },\n' +
+        '{ "source": 53, "target": 54, "rela": "", "type": "行为" },\n' +
+        '{ "source": 54, "target": 56, "rela": "实例", "type": "行为" },\n' +
+        '{ "source": 56, "target": 57, "rela": "价格", "type": "行为" },\n' +
+        '{ "source": 57, "target": 58, "rela": "趋势", "type": "行为" },\n' +
+        '{ "source": 54, "target": 59, "rela": "实例", "type": "行为" },\n' +
+        '{ "source": 59, "target": 60, "rela": "VPP起的作用","type": "行为" }\n' +
+         "]"
         document.getElementById("t2").value = t2_text;
 
         contentHook = function(item){
